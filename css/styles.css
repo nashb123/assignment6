@@ -12,6 +12,7 @@ body{
 
 nav{
     position: fixed;
+    display: flex;
     left: 0;
     top: 0;
     right: 0;
@@ -28,23 +29,23 @@ nav a{
 
 }
 nav img{
-    width: 40%;
-    float: left;
+    width: 70%;
     margin: 10px 0;
 }
 
 nav ul{
-    float: right;
     margin-top: 2%;
+    display: flex;
 }
 
 nav ul li{
-    display: inline-block;
     margin: 1em;
+    list-style: none;
 }
 .main-container {
 	max-width: 1440px;
     padding: 2em 2em;
+    margin: 0 auto;
     overflow: auto;
 }
 
